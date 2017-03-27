@@ -2,11 +2,13 @@
 Implementação da estrutura física do banco de dados do SIG 1º CGEO
 
 */
+
 BEGIN;
 --ESQUEMAS
 /**
  Esquemas que irão segmentar as categorias e classes definidas no projeto.
 */
+CREATE EXTENSION postgis;
 
 CREATE SCHEMA rede_logica;
 CREATE SCHEMA rede_eletrica;
