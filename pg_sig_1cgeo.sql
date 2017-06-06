@@ -4,6 +4,7 @@ Implementação da estrutura física do banco de dados do SIG 1º CGEO
  - EMPRESA RESPONSAVEL PELO BUEIRO,
  - REDE DE TELEFONIA
  - PARA-RAIO COM TIPO DE INSTALACAO E MANUTENCAO, COLOCAR TABELA DE MANUTENCAO DO PARA-RAIO
+ - RELACIONAR O ABASTECIMENTO DE ÁGUA (HIDROMETROS) E ENERGIA NOS PREDIOS - Desligando um hidrometro quais predios seriam atingidos
 */
 
 
