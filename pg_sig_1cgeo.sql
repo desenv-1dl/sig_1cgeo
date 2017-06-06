@@ -10,7 +10,7 @@ BEGIN;
 */
 CREATE EXTENSION postgis;
 
-CREATE SCHEMA rede_logica;
+CREATE SCHEMA rede_logica; --alterar para rede fisica e colocar telefonia
 CREATE SCHEMA rede_eletrica;
 CREATE SCHEMA rede_hidraulica;
 CREATE SCHEMA area_verde;
