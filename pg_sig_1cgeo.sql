@@ -240,7 +240,10 @@ CREATE TABLE adm.instalacao_reforma(
 	fiscal_obra VARCHAR(255),
 	instalacao_id INTEGER NOT NULL REFERENCES planta_baixa.instalacao(gid),
 	tipo_reforma_id INTEGER NULL REFERENCES dominios.tipo_reforma(codigo),
-	tipo_instalacao_id INTEGER NOT NULL REFERENCES dominios.tipo_instalacao(codigo)
+	garantia INTEGER, --NUMERO DE MESES DE GARANTIA
+	edital VARCHAR(255),--EDITAL DE LICITAÇÃO
+	valor REAL, --CUSTO DA OBRA
+	--tipo_instalacao_id INTEGER NOT NULL REFERENCES dominios.tipo_instalacao(codigo)
 
 );
 
